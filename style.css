@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    background-color: #8f8d8d; /* Slightly warmer background */
+    padding: 20px;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Updated font for a modern look */
+    font-size: 16px;
+    color: #333; /* Darker text for better contrast */
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Softer white for background */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow */
+    border: 1px solid #ddd; /* Subtle border for structure */
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.7em; /* Larger and bolder */
+    color: #444; /* Darker shade for better impact */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777; /* Lighter grey for subtext */
+}
+
+/* About Section */
+#about h2 {
+    font-size: 2.1em;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.15em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Skills Section */
+#skills h2 {
+    font-size: 2.1em;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center the list items */
+}
+
+#skills ul li {
+    display: inline-block; /* Makes the box fit around the content */
+    font-size: 1.1em;
+    color: #555;
+    background-color: #ececec;
+    margin: 10px 10px; /* Adds space between each skill */
+    padding: 10px 15px; /* Padding inside the box */
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+}
+
+
+/* Contact Section */
+#contact h2 {
+    font-size: 2.1em;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact p, #contact ul li {
+    font-size: 1.1em;
+    color: #555;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li a {
+    color: #0056b3; /* Deeper blue for links */
+    text-decoration: none;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+    color: #777;
+    background-color: #f1f1f1; /* Lighter footer background */
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 1px solid #ddd;
+}
+
+/* Center Image */
+.center-image {
+    display: block;
+    margin-left: auto;
+    height: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the image */
+}
